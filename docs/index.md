@@ -9,3 +9,9 @@ This repository uses a third party theme called [cinder](https://github.com/chri
 
 ### Topcoder Docs
 Since this project also contains content,  We can include standard docs like bug bash instructions.
+
+# Quick Start
+ 1. Make sure you have python2 and pip2 installed, then run ```pip2 install mkdocs``` to install mkdocs
+ 2. clone the template ``` git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject ```
+ 3. cd ```myproject``` and run  ```mkdocs serve```
+ 4. You should also edit the mkdocs.yml and edit the sitename.   It might be a good idea to remove the .git dir and do a ```git init``` to orphan this template(repo) from your new wrapper project.
