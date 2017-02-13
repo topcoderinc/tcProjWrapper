@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Purpose\n\n\nOften one or more github repos and google docs repositories are used in a single github project.   For example:  Front end and back end.  In addition multiple public or private share for binary documents are also used.    This project will serves as a wrapper for both of those conepts as well as being a single repository for documentation.\n\n\nThis project uses mkdocs to provide an simple platform to generate html pages from markdown.   It can be hosted anywhere, includes special provisions for ghpages or can be run locally with \nmkdocs serve\n\n\nTopcoder Theme\n\n\nThis repository uses a third party theme called \ncinder\n.   However this theme has been forked and added the topcoder logo \n.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.\n\n\nTopcoder Docs\n\n\nSince this project also contains content,  We can include standard docs like bug bash instructions.", 
+            "text": "Purpose\n\n\nOften one or more github repos and google docs repositories are used in a single github project.   For example:  Front end and back end.  In addition multiple public or private share for binary documents are also used.    This project will serves as a wrapper for both of those conepts as well as being a single repository for documentation.\n\n\nThis project uses mkdocs to provide an simple platform to generate html pages from markdown.   It can be hosted anywhere, includes special provisions for ghpages or can be run locally with \nmkdocs serve\n\n\nTopcoder Theme\n\n\nThis repository uses a third party theme called \ncinder\n.   However this theme has been forked and added the topcoder logo \n.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.\n\n\nTopcoder Docs\n\n\nSince this project also contains content,  We can include standard docs like bug bash instructions.\n\n\nQuick Start\n\n\n\n\nMake sure you have python2 and pip2 installed, then run \npip2 install mkdocs\n to install mkdocs\n\n\nclone the template \ngit clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject\n\n\ncd \nmyproject\n and run  \nmkdocs serve\n\n\nYou should also edit the mkdocs.yml and edit the sitename.   It might be a good idea to remove the .git dir and do a \ngit init\n to orphan this template(repo) from your new wrapper project.", 
             "title": "Project introduction"
         }, 
         {
@@ -19,6 +19,11 @@
             "location": "/#topcoder-docs", 
             "text": "Since this project also contains content,  We can include standard docs like bug bash instructions.", 
             "title": "Topcoder Docs"
+        }, 
+        {
+            "location": "/#quick-start", 
+            "text": "Make sure you have python2 and pip2 installed, then run  pip2 install mkdocs  to install mkdocs  clone the template  git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject  cd  myproject  and run   mkdocs serve  You should also edit the mkdocs.yml and edit the sitename.   It might be a good idea to remove the .git dir and do a  git init  to orphan this template(repo) from your new wrapper project.", 
+            "title": "Quick Start"
         }, 
         {
             "location": "/mkDocsIndex/", 

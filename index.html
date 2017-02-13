@@ -141,6 +141,9 @@
             
         
     
+        <li class="first-level "><a href="#quick-start">Quick Start</a></li>
+        
+    
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -151,7 +154,14 @@
 <h3 id="topcoder-theme">Topcoder Theme</h3>
 <p>This repository uses a third party theme called <a href="https://github.com/chrissimpkins/cinder">cinder</a>.   However this theme has been forked and added the topcoder logo <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/>.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.</p>
 <h3 id="topcoder-docs">Topcoder Docs</h3>
-<p>Since this project also contains content,  We can include standard docs like bug bash instructions.</p></div>
+<p>Since this project also contains content,  We can include standard docs like bug bash instructions.</p>
+<h1 id="quick-start">Quick Start</h1>
+<ol>
+<li>Make sure you have python2 and pip2 installed, then run <code>pip2 install mkdocs</code> to install mkdocs</li>
+<li>clone the template <code>git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject</code></li>
+<li>cd <code>myproject</code> and run  <code>mkdocs serve</code></li>
+<li>You should also edit the mkdocs.yml and edit the sitename.   It might be a good idea to remove the .git dir and do a <code>git init</code> to orphan this template(repo) from your new wrapper project.</li>
+</ol></div>
         
     </div>
 
@@ -204,5 +214,5 @@
 
 <!--
 MkDocs version : 0.16.1
-Build Date UTC : 2017-02-13 19:53:05
+Build Date UTC : 2017-02-13 20:17:07
 -->
