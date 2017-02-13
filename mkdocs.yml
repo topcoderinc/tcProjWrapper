@@ -1,4 +1,5 @@
 site_name: tcprojWrapper
+repo_url: https://github.com/topcoderinc/tcProjWrapper
 pages:
     - tcProjWrapper:
       - 'Project introduction': index.md
