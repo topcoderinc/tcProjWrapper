@@ -1,0 +1,6 @@
+[submodule "docstheme"]
+	path = docstheme
+	url = https://github.com/emlid/docstheme.git
+[submodule "cinder"]
+	path = cinder
+	url = git@github.com:topcoderinc/cinder.git

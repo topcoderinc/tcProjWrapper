@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: tcprojWrapper
+pages:
+    - tcProjWrapper:
+      - 'Project introduction': index.md
+      - mkdocs: mkDocsIndex.md
+    - Todo: Todo.md
+theme_dir: cinder/site
