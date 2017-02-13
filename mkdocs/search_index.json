@@ -1,0 +1,59 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Purpose\n\n\nOften one or more github repos and google docs repositories are used in a single github project.   For example:  Front end and back end.  In addition multiple public or private share for binary documents are also used.    This project will serves as a wrapper for both of those conepts as well as being a single repository for documentation.\n\n\nThis project uses mkdocs to provide an simple platform to generate html pages from markdown.   It can be hosted anywhere, includes special provisions for ghpages or can be run locally with \nmkdocs serve\n\n\nTopcoder Theme\n\n\nThis repository uses a third party theme called \ncinder\n.   However this theme has been forked and added the topcoder logo \n.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.\n\n\nTopcoder Docs\n\n\nSince this project also contains content,  We can include standard docs like bug bash instructions.", 
+            "title": "Project introduction"
+        }, 
+        {
+            "location": "/#purpose", 
+            "text": "Often one or more github repos and google docs repositories are used in a single github project.   For example:  Front end and back end.  In addition multiple public or private share for binary documents are also used.    This project will serves as a wrapper for both of those conepts as well as being a single repository for documentation.  This project uses mkdocs to provide an simple platform to generate html pages from markdown.   It can be hosted anywhere, includes special provisions for ghpages or can be run locally with  mkdocs serve", 
+            "title": "Purpose"
+        }, 
+        {
+            "location": "/#topcoder-theme", 
+            "text": "This repository uses a third party theme called  cinder .   However this theme has been forked and added the topcoder logo  .   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.", 
+            "title": "Topcoder Theme"
+        }, 
+        {
+            "location": "/#topcoder-docs", 
+            "text": "Since this project also contains content,  We can include standard docs like bug bash instructions.", 
+            "title": "Topcoder Docs"
+        }, 
+        {
+            "location": "/mkDocsIndex/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nfresh setup\n\n\n\n\nrun \nmkdocs new tcprojWrapper\n\n\nedit mkdocs.yml \nsite_name\n to tcprojWrapper\n\n\ngit add .\n then git commit\n\n\nAdd a theme as a git submodule:    \ngit submodule add https://github.com/emlid/docstheme.git", 
+            "title": "mkdocs"
+        }, 
+        {
+            "location": "/mkDocsIndex/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/mkDocsIndex/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/mkDocsIndex/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/mkDocsIndex/#fresh-setup", 
+            "text": "run  mkdocs new tcprojWrapper  edit mkdocs.yml  site_name  to tcprojWrapper  git add .  then git commit  Add a theme as a git submodule:     git submodule add https://github.com/emlid/docstheme.git", 
+            "title": "fresh setup"
+        }, 
+        {
+            "location": "/Todo/", 
+            "text": "TODO\n\n\n\n\n[ ] subdocs\n\n\n[ ] binary docs\n\n\n[ ] ghpages", 
+            "title": "Todo"
+        }, 
+        {
+            "location": "/Todo/#todo", 
+            "text": "[ ] subdocs  [ ] binary docs  [ ] ghpages", 
+            "title": "TODO"
+        }
+    ]
+}
