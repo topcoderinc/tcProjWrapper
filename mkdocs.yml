@@ -4,6 +4,7 @@ pages:
     - 'Topcoder Docs':
        - 'Fixing Bugs': topcoder/fixingBugs.md
        - 'Ragnar: Git Process': topcoder/RagnarGit.md
+       - 'Copilot Responsibilities': topcoder/copilotsResponsiblites.md
     - tcProjWrapper:
       - 'This Project introduction': index.md
       - mkdocs: mkDocsIndex.md
