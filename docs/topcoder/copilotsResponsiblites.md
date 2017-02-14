@@ -144,11 +144,11 @@ You will be added to a copilot list.  A topcoder employee will email you and off
 
 As a Connect Copilot you will be added to Topcoder Slack.  You will see a channel called connect-copilots
 
-![image alt text](image_0.png)
+![image alt text](img/image_0.png)
 
 You will see admins posting projects and you can reply if you are interested right in slack to be assigned. Before accepting, please view the link for the requirements and technologies used.
 
-![image alt text](image_1.png)
+![image alt text](img/image_1.png)
 
 **Connect V2**
 
@@ -171,17 +171,17 @@ Gameplans, or project plans, are created at the beginning of the project as a pr
 ### Requesting a new quote
 
 1. In slack type the slash command "/quote" followed by the name of the project.
-![image alt text](image_2.png)
+![image alt text](img/image_2.png)
 
 2. Chose a name for the quote that makes it unique like the project name
 
 3. After the command is typed, the quote is created and the slack window will be updated with a link to the quote
-![image alt text](image_3.png)
+![image alt text](img/image_3.png)
 
 4. Click the link and log into Smartsheet. Be sure to login to smartsheet with the same email as your slack account.
 
 5. Once you’ve logged into smartsheet you will be presented with a blank quote in smartsheet.
-![image alt text](image_4.png)
+![image alt text](img/image_4.png)
 
 ### Editing a new quote
 
@@ -251,7 +251,7 @@ Challenge types are prefixed by the challenge community they belong to.
 
         1. Log into [http://topcoder.com/direct](http://topcoder.com/direct)
 
-        2. ![image alt text](image_5.png)
+        2. ![image alt text](img/image_5.png)
 
         3. Chose your project name and billing account
 
@@ -259,11 +259,11 @@ Challenge types are prefixed by the challenge community they belong to.
 
         5. For review type select community or internal (only use this if you are reviewing or the client.
 
-        6. ![image alt text](image_6.png)
+        6. ![image alt text](img/image_6.png)
 
         7. Insert your requirements and overview here
 
-        8. ![image alt text](image_7.png)
+        8. ![image alt text](img/image_7.png)
 
         9. You must select your technology
 
@@ -295,19 +295,19 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 2. You will now see My Open Projects and click on the appropriate challenge
 
-![image alt text](image_8.png)
+![image alt text](img/image_8.png)
 
 3. Verify Competition details by clicking on the challenge name in the previous menu and verifying your dates are correct.  You will also notice in green the highlighted phase specific tabs for this challenge.
 
-![image alt text](image_9.png)
+![image alt text](img/image_9.png)
 
 4. At the bottom of the page you will notice the Project details and team members.  You will see Topcoder staff assigned as orange handles.
 
-5. ![image alt text](image_10.png)
+5. ![image alt text](img/image_10.png)
 
 6. You can now click the forum link in the top right hand menu.  This will take you to the forums. This will ensure you have access to the appropriate forum and you will want to click watch to receive email notifications.
 
-7. ![image alt text](image_11.png)
+7. ![image alt text](img/image_11.png)
 
 8. **HINT: **this [link](https://apps.topcoder.com/forums//?module=Watches) will list all of your watched forums.  You can edit your preferences from there.
 
@@ -315,15 +315,15 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 1. At the bottom of your challenge in Online Review you can click "Manage Project"
 
-2. ![image alt text](image_12.png)
+2. ![image alt text](img/image_12.png)
 
 3. Then you can enter observers or a designer to watch the project if you need help.
 
-4. ![image alt text](image_13.png)
+4. ![image alt text](img/image_13.png)
 
 5. Optionally you can add other roles by click edit project and scrolling down the the roles section.
 
-6. ![image alt text](image_14.png)
+6. ![image alt text](img/image_14.png)
 
 7. NOTE: This gives you more control, but the first one is simpler to use and will meet 99% of the use cases.
 
@@ -357,11 +357,11 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 1. In your project click Edit Project button
 
-2. ![image alt text](image_15.png)
+2. ![image alt text](img/image_15.png)
 
 3. Now you can see all the phases in the timeline section
 
-4. ![image alt text](image_16.png)
+4. ![image alt text](img/image_16.png)
 
 5. Changing the duration in terms of number of hours or hours:minutes will change the timeline for the current phase by adding that time to the start date of the phase
 
@@ -413,7 +413,7 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 1. Copilots will monitor member registration during this phase.  In Online Review, you can view the registration tab to view who has registered for the challenge.  
 
-2. ![image alt text](image_17.png)
+2. ![image alt text](img/image_17.png)
 
 3. You will want to make sure you have a mix of members who are active.  By clicking on their name you can view their profile to see what challenges they have worked on and how active they are at Topcoder.
 
@@ -441,7 +441,7 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 3. The plus symbol expands to see earlier submissions
 
-4. ![image alt text](image_18.png)
+4. ![image alt text](img/image_18.png)
 
 5. If screening is enabled for this phase, you can view the scorecard and status if it is completed.  
 
@@ -453,7 +453,7 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 3. The plus symbol expands to see earlier submissions
 
-4. ![image alt text](image_19.png)
+4. ![image alt text](img/image_19.png)
 
 5. If screening is enabled for this phase, you can view the scorecard and status if it is completed.  
 
@@ -481,7 +481,7 @@ First review all of the different challenge types: [https://help.topcoder.com/hc
 
 2. Click contact managers to contact Topcoder Staff
 
-3. ![image alt text](image_20.png)
+3. ![image alt text](img/image_20.png)
 
 ## Running a bug bash from Source control
 
@@ -715,7 +715,7 @@ When you create a ticket in JIRA for payment, the processor needs to know which 
 
 Payments are made based on the successful completion of the challenge. The payment is displayed once a draft is created in Direct.  On the challenge page in direct, scroll down to the prizes section and view the payments section
 
-![image alt text](image_21.png)
+![image alt text](img/image_21.png)
 
 ## When Payments Are Made
 
