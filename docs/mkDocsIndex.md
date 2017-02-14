@@ -15,9 +15,3 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
-## fresh setup
- 1.  run ``` mkdocs new tcprojWrapper ```
- 2.  edit mkdocs.yml **site_name** to tcprojWrapper
- 3.  ``` git add . ``` then git commit
- 4.  Add a theme as a git submodule:    ```git submodule add https://github.com/emlid/docstheme.git```
