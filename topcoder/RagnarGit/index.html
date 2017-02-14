@@ -158,6 +158,33 @@
     
         <li class="first-level "><a href="#process">Process:</a></li>
         
+            <li class="second-level"><a href="#accountaccess-structure">Account/Access Structure:</a></li>
+            
+        
+            <li class="second-level"><a href="#branching-model-setup-gitlow-style">Branching Model Setup (gitlow style):</a></li>
+            
+        
+            <li class="second-level"><a href="#challenge-setup">Challenge Setup:</a></li>
+            
+        
+            <li class="second-level"><a href="#submission-process">Submission Process:</a></li>
+            
+        
+            <li class="second-level"><a href="#review-process">Review Process:</a></li>
+            
+        
+            <li class="second-level"><a href="#merging">Merging:</a></li>
+            
+        
+            <li class="second-level"><a href="#releases">Releases:</a></li>
+            
+        
+            <li class="second-level"><a href="#wikis">Wikis:</a></li>
+            
+        
+            <li class="second-level"><a href="#issues-list">Issues List</a></li>
+            
+        
     
     </ul>
 </div></div>
@@ -172,9 +199,9 @@
  <strong>Manager:</strong> a Copilot or Project Manager overseeing the project <br/>
  <strong>Repo:</strong> a code repository with the purpose of managing one functional piece of software or designs for a project. ie: SFDC services, mobile app framework, assembled application, storyboard designs, etc. <br/>
  <strong>Team/Group:</strong> an organizational unit of members and/or managers applied to a set of repos. <br/></p>
-<h3 id="process">Process:</h3>
+<h2 id="process">Process:</h2>
+<h3 id="accountaccess-structure"><strong>Account/Access Structure:</strong></h3>
 <ol>
-<li><strong>Account/Access Structure:</strong><ol>
 <li>unless required, repositories should be private by default</li>
 <li>team/group based access to repositories<ol>
 <li>Member group access includes:<ol>
@@ -198,21 +225,21 @@
 </ol>
 </li>
 </ol>
-</li>
-<li><strong>Branching Model Setup (gitlow style):</strong><ol>
+<h3 id="branching-model-setup-gitlow-style"><strong>Branching Model Setup (gitlow style):</strong></h3>
+<ol>
 <li>create <code>master</code> branch. Used for releases only.</li>
 <li>branch <code>master</code> to create a “develop” branch. Used for active development line and release candidates (via tags).</li>
 <li>branch <code>develop</code> for each feature being developed (“Admin Widget 1”, “Blog components”). Prefix name of branch with challenge Id.</li>
 <li>“Official” branches (master, develop, &amp; features) should be marked “protected”. Note: This is a concept from Gitlab that does not exist in Github currently.</li>
 </ol>
-</li>
-<li><strong>Challenge Setup:</strong><ol>
+<h3 id="challenge-setup"><strong>Challenge Setup:</strong></h3>
+<ol>
 <li>In your challenge, ask the community to email you/co-pilot and request access to the project group (“Goliath National Bank Team”) by sending their username. This should ideally be automated at sign up of challenge.</li>
 <li>Add community member to the group  (example name “Goliath National Bank Team”) with “Developer” access only. This allows them to create tickets, fork the repo, and create branches but will not allow them to touch protected branches. Note: this level of access is a concept from Gitlab that does not exist in Github currently. See https://gitlab.com/help/permissions/permissions.md</li>
 <li>Have member add challenge managers to their private branch as a master and reviews as reporter. Note: this level of access is a concept from Gitlab that does not exist in Github currently.</li>
 </ol>
-</li>
-<li><strong>Submission Process:</strong><ol>
+<h3 id="submission-process"><strong>Submission Process:</strong></h3>
+<ol>
 <li>Require community members to fork the project at the feature branch to acquire the current code base. This will allow for concurrent challenge running as each branch is a separate challenge.</li>
 <li>Two options for gaining access to code are available. Note: private forks are unique to Gitlab only and thus protect member code.<ol>
 <li>Require submissions of code by through a merge request.  The only issue with this method is that the code can be viewed in a “diff” of the merge request.</li>
@@ -220,26 +247,26 @@
 </ol>
 </li>
 </ol>
-</li>
-<li><strong>Review Process:</strong><ol>
+<h3 id="review-process"><strong>Review Process:</strong></h3>
+<ol>
 <li>Test pull/merge request submissions locally before accepting.</li>
 <li>If submission passes, accept merging into feature branch.</li>
 <li>If submission fails, reviewer can make comments directly against code or merge request ticket.</li>
 </ol>
-</li>
-<li><strong>Merging:</strong><ol>
+<h3 id="merging"><strong>Merging:</strong></h3>
+<ol>
 <li>After accepting the winning submission merge request into feature branch merge the feature branch into the “develop” branch after performing integration testing.</li>
 <li>Proper gitflow usage dictates using the --no-ff option to prevent “fast-forwarding” of commits.</li>
 </ol>
-</li>
-<li><strong>Releases:</strong><ol>
+<h3 id="releases"><strong>Releases:</strong></h3>
+<ol>
 <li>Release candidates should come from the “develop” branch and be tagged as such.</li>
 <li>Merge “develop” into the “master” in preparation for release (--no-ff)</li>
 <li>Releases should be pulled from the “master” branch only</li>
 <li>Tag the “master” at each major release (with version number/name)</li>
 </ol>
-</li>
-<li><strong>Wikis:</strong><ol>
+<h3 id="wikis"><strong>Wikis:</strong></h3>
+<ol>
 <li>Wikis should be utilized extensively as a central repository for project information.</li>
 <li>Types of information include:<ol>
 <li>Project description</li>
@@ -250,11 +277,11 @@
 </ol>
 </li>
 </ol>
-</li>
-<li><strong>Issues List</strong><ol>
+<h3 id="issues-list"><strong>Issues List</strong></h3>
+<ol>
 <li>Issues lists can be utilized for general bug tracking as well as “Bug Bashing”</li>
 <li>Members can be alerted to issue tickets by utilizing the @all/@organization/team-name mention</li>
-<li>Bug Bashing Process<ol>
+<li>Bug Bashing Process</li>
 <li>Create the following tags on the repo:<ol>
 <li><code>_OPEN FOR PICKUP</code> denoting ticket is available to members to self-assign</li>
 <li><code>_READY FOR REVIEW</code> denoting that a member has completed the requested work</li>
@@ -279,10 +306,6 @@
 </li>
 <li>After reviewing submission the manager/reviewer marks the ticket as “_ACCEPTED”</li>
 <li>After the manager has accepted the submission and process payment, the ticket is labelled “_PAID” and payment reference placed as a comment on the ticket</li>
-</ol>
-</li>
-</ol>
-</li>
 </ol>
 <p><strong>Notes:</strong></p>
 <ul>
