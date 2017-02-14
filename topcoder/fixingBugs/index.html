@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
 
-    <title>tcprojWrapper</title>
+    <title>Fixing Bugs - tcprojWrapper</title>
 
-    <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="./css/base.css" rel="stylesheet">
-    <link href="./css/cinder.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/highlight.css">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,7 +36,7 @@
     
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -55,7 +55,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="topcoder/fixingBugs/"> <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/> tcprojWrapper </a>
+            <a class="navbar-brand" href="./"> <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/> tcprojWrapper </a>
         </div>
 
         <!-- Expanded navigation -->
@@ -65,19 +65,19 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topcoder Docs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li >
-    <a href="topcoder/fixingBugs/">Fixing Bugs</a>
+<li class="active">
+    <a href="./">Fixing Bugs</a>
 </li>
 
                         
                             
 <li >
-    <a href="topcoder/RagnarGit/">Ragnar: Git Process</a>
+    <a href="../RagnarGit/">Ragnar: Git Process</a>
 </li>
 
                         
@@ -86,19 +86,19 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">tcProjWrapper <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href=".">This Project introduction</a>
+<li >
+    <a href="../..">This Project introduction</a>
 </li>
 
                         
                             
 <li >
-    <a href="mkDocsIndex/">mkdocs</a>
+    <a href="../../mkDocsIndex/">mkdocs</a>
 </li>
 
                         
@@ -108,7 +108,7 @@
                 
                 
                     <li >
-                        <a href="Todo/">Todo</a>
+                        <a href="../../Todo/">Todo</a>
                     </li>
                 
                 
@@ -122,13 +122,13 @@
                     </a>
                 </li>
                 
-                    <li >
-                        <a rel="next" href="topcoder/RagnarGit/">
+                    <li class="disabled">
+                        <a rel="next" >
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="mkDocsIndex/">
+                        <a rel="prev" href="../RagnarGit/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -153,36 +153,47 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="first-level active"><a href="#purpose">Purpose</a></li>
-        
-            <li class="second-level"><a href="#topcoder-theme">Topcoder Theme</a></li>
-            
-        
-            <li class="second-level"><a href="#topcoder-docs">Topcoder Docs</a></li>
-            
-        
-    
-        <li class="first-level "><a href="#quick-start">Quick Start</a></li>
-        
-    
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h2 id="purpose">Purpose</h2>
-<p>Often one or more github repos and google docs repositories are used in a single github project.   For example:  Front end and back end.  In addition multiple public or private share for binary documents are also used.    This project will serves as a wrapper for both of those conepts as well as being a single repository for documentation.</p>
-<p>This project uses mkdocs to provide an simple platform to generate html pages from markdown.   It can be hosted anywhere, includes special provisions for ghpages or can be run locally with <code>mkdocs serve</code></p>
-<h3 id="topcoder-theme">Topcoder Theme</h3>
-<p>This repository uses a third party theme called <a href="https://github.com/chrissimpkins/cinder">cinder</a>.   However this theme has been forked and added the topcoder logo <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/>.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.</p>
-<h3 id="topcoder-docs">Topcoder Docs</h3>
-<p>Since this project also contains content,  We can include standard docs like bug bash instructions.</p>
-<h1 id="quick-start">Quick Start</h1>
+<p><em>Current Development Branch:</em> <strong>dev</strong></p>
+<p><em>mtwomey edited this page on Dec 24, 2014 · 12 revisions</em></p>
+<p><strong>Rules for Fixing Bugs (Issues)</strong></p>
+<p>IE11 is the primary browser used for the application. Please make sure to test all fixes against this browser.</p>
 <ol>
-<li>Make sure you have python2 and pip2 installed, then run <code>pip2 install mkdocs</code> to install mkdocs</li>
-<li>clone the template <code>git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject</code></li>
-<li>cd <code>myproject</code> and run  <code>mkdocs serve</code></li>
-<li>You should also edit the mkdocs.yml and edit the sitename.   It might be a good idea to remove the .git dir and do a <code>git init</code> to orphan this template(repo) from your new wrapper project.</li>
-</ol></div>
+<li>All eligible tasks / issues will be labeled “Up For Grabs”  You can assign any unassigned issues with this label to yourself (first come first serve)</li>
+<li>You can only assign yourself ONE issue at a time. We will monitor this and take away tasks if you do not comply</li>
+<li>If you cannot complete the task within 24 hours, add a comment to it as to why, or it will go back to unassigned</li>
+<li>Each task / issue will have points allocated to it which will translate to prizes</li>
+</ol>
+<p><strong>Process for Resolving Bugs (Issues)</strong></p>
+<ol>
+<li>Remove the "Up For Grabs" label from the Issue and assign it to yourself</li>
+<li>Create a branch off the Current Development Branch (see the top of this page)</li>
+<li><em>git checkout -b [YOUR-USERNAME]-issue-[ISSUE#] [CURRENT DEVELOPMENT BRANCH]</em></li>
+<li>for example <em>git checkout -b mtwomey-issue-22 dev</em></li>
+<li>Please make <strong>sure</strong> you are branching off the correct development branch and not master!</li>
+<li>Do your work on this branch</li>
+<li>Do frequent pulls of the Current Development Branch if you're working the issue for more than a few hours</li>
+<li><em>git pull --rebase origin [CURRENT DEVELOPMENT BRANCH]</em></li>
+<li>Once you finish the task</li>
+<li>Commit your changes</li>
+<li>Do a final <em>git pull --rebase origin [CURRENT DEVELOPMENT BRANCH]</em> to make sure nothing has changed that affects your fixes</li>
+<li>Push your branch to GitHub</li>
+<li><em>git push origin [BRANCH NAME]</em></li>
+<li>Add the "Ready for Review" label to the Issue</li>
+<li>Create a pull request for your branch to the Current Development Branch</li>
+<li>Start your next issue!</li>
+</ol>
+<p><strong>Tips</strong></p>
+<ul>
+<li>If you have questions, post a comment on the github issue</li>
+<li>If you have questions on this process contact mtwomey@appirio.com</li>
+</ul>
+<p><strong>Point System</strong>
+1 point = $25 and will be paid weekly</p>
+<p>The tasks are geared to be small in scope and completed quickly.  Some may take longer than others but in general should be less than a day.</p></div>
         
     </div>
 
@@ -192,15 +203,15 @@
         <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
     </footer>
 
-    <script src="./js/jquery-1.10.2.min.js"></script>
-    <script src="./js/bootstrap-3.0.3.min.js"></script>
-    <script src="./js/highlight.pack.js"></script>
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script>
-    var base_url = '.';
+    var base_url = '../..';
     </script>
-    <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-    <script src="./js/base.js"></script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
         <div class="modal-dialog">
@@ -232,8 +243,3 @@
     </body>
 
 </html>
-
-<!--
-MkDocs version : 0.16.1
-Build Date UTC : 2017-02-14 17:01:00
--->
