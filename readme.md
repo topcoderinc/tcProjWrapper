@@ -20,8 +20,8 @@ Since this project also contains content,  We can include standard docs like bug
 
 ## Changelog
 
-2/13/2017 - ktb updated cinder submodule
-2/15/2017 - ktb added setup script in src dir
+ * 2/13/2017 - ktb updated cinder submodule
+ * 2/15/2017 - ktb added setup script in src dir
 
 ## example setup.sh
 ```
