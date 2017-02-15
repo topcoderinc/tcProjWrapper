@@ -1,5 +1,8 @@
-git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git drone-series
-sed -i.bak s/tcprojWrapper/drone-series/g  mkdocs.yml && rm mkdocs.yml.bak
+echo 'enter NEW project name'
+read name
+
+//git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git drone-series
+sed -i.bak s/tcprojWrapper/${name}/g  mkdocs.yml && rm mkdocs.yml.bak
 rm -rf .git*
 git init
 git add .
