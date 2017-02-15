@@ -9,5 +9,5 @@ pages:
     - tcProjWrapper:
       - 'This Project introduction': index.md
       - mkdocs: mkDocsIndex.md
-    - Todo: Todo.md
+    - Project: project.md
 theme_dir: cinder/site
