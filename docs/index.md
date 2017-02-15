@@ -10,7 +10,17 @@ This repository uses a third party theme called [cinder](https://github.com/chri
 ### Topcoder Docs
 Since this project also contains content,  We can include standard docs like bug bash instructions.
 
-# Quick Start
+### Deploying this template as a project
+Once you clone this project with ```git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject ``` you can then run ```sh bin/setup.sh``` and you will be prompted for the new project name.   This script will remove the git reference to this repo and do a fresh ```git init```
+This file is the index.md in the docs directory.    Edit this file and describe the top level of your project. Also be sure to exit the mkdocs.yml file lines 9-11
+
+```
+9  - tcProjWrapper:
+10    - 'This Project introduction': index.md
+11    - mkdocs: mkDocsIndex.md
+```
+
+### Quick Start
  1. Make sure you have python2 and pip2 installed, then run ```pip2 install mkdocs``` to install mkdocs
  2. clone the template ``` git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject ```
  3. cd ```myproject``` and run  ```mkdocs serve```
