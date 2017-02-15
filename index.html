@@ -55,7 +55,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="topcoder/fixingBugs/"> <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/> tcprojWrapper </a>
+            <a class="navbar-brand" href="topcoder/copilotsResponsiblites/"> <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/> tcprojWrapper </a>
         </div>
 
         <!-- Expanded navigation -->
@@ -71,20 +71,29 @@
                         
                             
 <li >
-    <a href="topcoder/fixingBugs/">Fixing Bugs</a>
+    <a href="topcoder/copilotsResponsiblites/">Copilot Responsibilities</a>
 </li>
 
                         
                             
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">code</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="topcoder/fixingBugs/">Fixing Bugs from github</a>
+</li>
+
+        
+            
 <li >
     <a href="topcoder/RagnarGit/">Ragnar: Git Process</a>
 </li>
 
-                        
-                            
-<li >
-    <a href="topcoder/copilotsResponsiblites/">Copilot Responsibilities</a>
-</li>
+        
+    </ul>
+  </li>
 
                         
                         </ul>
@@ -114,7 +123,7 @@
                 
                 
                     <li >
-                        <a href="Todo/">Todo</a>
+                        <a href="project/">Project</a>
                     </li>
                 
                 
@@ -129,7 +138,7 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="topcoder/copilotsResponsiblites/">
+                        <a rel="next" href="topcoder/RagnarGit/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -167,8 +176,11 @@
             <li class="second-level"><a href="#topcoder-docs">Topcoder Docs</a></li>
             
         
-    
-        <li class="first-level "><a href="#quick-start">Quick Start</a></li>
+            <li class="second-level"><a href="#deploying-this-template-as-a-project">Deploying this template as a project</a></li>
+            
+        
+            <li class="second-level"><a href="#quick-start">Quick Start</a></li>
+            
         
     
     </ul>
@@ -182,7 +194,15 @@
 <p>This repository uses a third party theme called <a href="https://github.com/chrissimpkins/cinder">cinder</a>.   However this theme has been forked and added the topcoder logo <img src="https://storage.googleapis.com/instapage-user-media/97c829ee/1997047-0-high-topcoder-horizo.png"  height="22px"/>.   It would be easy enough to include this forked code directly in the tcProjWrapper repo directly, except this project relies heavily on  submodule for src so we wanted to include the theme as a submodule too.  In addition the submodule could be forked or branched specifly to include a customers logo.</p>
 <h3 id="topcoder-docs">Topcoder Docs</h3>
 <p>Since this project also contains content,  We can include standard docs like bug bash instructions.</p>
-<h1 id="quick-start">Quick Start</h1>
+<h3 id="deploying-this-template-as-a-project">Deploying this template as a project</h3>
+<p>Once you clone this project with <code>git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject</code> you can then run <code>sh bin/setup.sh</code> and you will be prompted for the new project name.   This script will remove the git reference to this repo and do a fresh <code>git init</code>
+This file is the index.md in the docs directory.    Edit this file and describe the top level of your project. Also be sure to exit the mkdocs.yml file lines 9-11</p>
+<pre><code>9  - tcProjWrapper:
+10    - 'This Project introduction': index.md
+11    - mkdocs: mkDocsIndex.md
+</code></pre>
+
+<h3 id="quick-start">Quick Start</h3>
 <ol>
 <li>Make sure you have python2 and pip2 installed, then run <code>pip2 install mkdocs</code> to install mkdocs</li>
 <li>clone the template <code>git clone --recursive git@github.com:topcoderinc/tcProjWrapper.git  myproject</code></li>
@@ -241,5 +261,5 @@
 
 <!--
 MkDocs version : 0.16.1
-Build Date UTC : 2017-02-15 18:29:24
+Build Date UTC : 2017-02-15 20:53:01
 -->
